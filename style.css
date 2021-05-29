@@ -1,13 +1,13 @@
 body {
 	font-family: 'Lora' serif; 
 	font-size: 18px; 
-	background-color: #454545;
+	background-color:black;
 	margin: 0px;  
 }
 h1, h2, h3 {
 	font-family: Roboto, sans-serif;
 	font-weight: bold; 
-	color:white;
+	
 
 }
 
@@ -59,6 +59,8 @@ a {
 	margin: 0px 20px;
 }
 
+
+
  
 /* Fin du bandeau du haut */
 
@@ -66,9 +68,15 @@ a {
 
 .container-equipe{
 	margin:50px;
+	background-color:red;
+	padding:10px;
 }
 
 .container-equipe p {
+	color:white;
+}
+
+.container-equipe h2 {
 	color:white;
 }
 
@@ -90,6 +98,8 @@ a {
 	flex-grow: 1;
 	margin-bottom: 5px;
 	background-color: rgb(240,240,240);
+	text-align:left;
+	font-size:16px;
 }
 
 .card img {
@@ -97,6 +107,7 @@ a {
 	border-radius: 100px; 
 	filter:grayscale(100%);
 	height: 120px;
+	position:center;
 	
 }
 
@@ -110,24 +121,50 @@ a {
 }
 
 .card p {
-	text-align:justify;
-	padding:5px;
+	
+	color:black;
+
+}
+
+
+.btn-profil {
+	background-color: rgb(240,240,240);
+	color: black;
+	border-radius: 4px;
+	font-weight: bold; 
+	font-family: Roboto, sans-serif;
+	font-size:10px;
+	
+
+	
 }
 
 
 .container-matthieu  {
 	width: 90%; 
 	margin: 10px auto;
+	background:green;
+	padding:10px;
 }
 
 .container-matthieu img {
 	width:200px;
 }
 
+.container-matthieu h2 {
+	color:white;
+}
+
 .container-concept  {
 	width: 90%; 
 	margin: 10px auto;
+	background-color:pink;
+	padding:10px;
 
+}
+
+.container-concept h2 {
+	color:white;
 }
 
 .internal-container {
